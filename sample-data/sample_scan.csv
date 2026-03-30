@@ -1,1 +1,6 @@
-
+Hostname,IP,PluginName,Severity,CVSS,Description,Fix
+web-server-01,192.168.1.10,OpenSSL Vulnerability,High,7.5,Outdated OpenSSL version,Update OpenSSL
+db-server-01,192.168.1.20,Weak TLS Cipher,Medium,5.3,Weak encryption enabled,Disable weak ciphers
+app-server-01,192.168.1.30,Remote Code Execution,Critical,9.8,RCE vulnerability detected,Apply patch immediately
+web-server-02,192.168.1.11,Missing Security Updates,High,8.2,System missing updates,Install patches
+file-server-01,192.168.1.40,SMB Signing Disabled,Low,3.1,SMB signing not enforced,Enable SMB signing
